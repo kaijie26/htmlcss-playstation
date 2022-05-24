@@ -7,6 +7,114 @@ header{
     font-family: Helvetica, arial, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ms_btn-small{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin: 0 1rem;
+}
+
+/***************************************************** 
+Header
+*******************************************************/
+
+/* Header-Top */
+.header-top{
+    background-color: aquamarine;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.header-top img{
+    width: 100px;
+}
+
+/* Header-Bottom */
+.header-bottom{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.down{
+    width: 10px;
+}
+
+.lens{
+    width: 25px;
+}
+
+/* Display*/
+.ms_menu{
+    display: none;
+}
+
+.user_menu{
+    display: none;
+}
+ 
+
+/* LG */
 @media screen and (min-width: 992px) {
+    /* Burger-Btn */
+    .burger-btn{
+        display: none;
+    }
+
+    /* Header-Bottom */
+    .header-bottom{
+        width: 100%; 
+    }
+
+    .ms_header-bottom-container{
+        display: inline-block;
+    }
+
+    .logo-bottom{
+        display: inline-block;
+    }
+
+    .ms_menu{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    li > div{
+        display: inline-block;
+    }
+
+    .ms_list-menu{
+        display: flex;
+    }
+
+   .ms_menu ul li {
+        padding: 0 1rem;
+    }
+
+    /* User-Menu */
+    .user_menu{
+        display: inline-block;
+    }
+
+    .user_menu > div{
+        display: inline-block;
+    
+    }
     
 }
