@@ -68,6 +68,49 @@ Header
 .user_menu{
     display: none;
 }
+
+/**********************************************************
+Main
+*****************************************************************/
+
+/* Section-Jumbotron */
+.ms_jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    color: white;
+}
+
+.banner-logo{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+}
+
+.ms_jumbotron-content{
+    position: absolute;
+    top: 50%;
+}
+
+.ms_jumbotron-content h2{
+    padding: 1rem 0;
+    font-size: 45px;
+}
+
+.ms_jumbotron-content p{
+    padding-bottom: 1rem;
+
+}
+
+.ms_jumbotron-btn{
+    background-color: #cd3d0f;
+    margin: 0;
+
+}
  
 
 /* LG */
@@ -115,6 +158,11 @@ Header
     .user_menu > div{
         display: inline-block;
     
+    }
+
+    /* Section-Jumbotron */
+    .ms_jumbotron-content p{
+        width: 35%;
     }
     
 }
