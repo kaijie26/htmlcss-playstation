@@ -25,6 +25,14 @@ a{
     margin: 0 1rem;
 }
 
+.ms_mobile-padding{
+    padding: 2rem 0;
+}
+
+.ms_center{
+    text-align: center;
+}
+
 /***************************************************** 
 Header
 *******************************************************/
@@ -110,6 +118,36 @@ Main
     background-color: #cd3d0f;
     margin: 0;
 
+}
+
+/* Section-PlayStation 5 */
+.ms_card img{
+    width: 100%;
+}
+
+.playstation-5 img{
+    border-radius: 20px;
+}
+
+.product{
+    display: none;
+}
+
+/* MD */
+@media screen and (min-width: 768px) {
+    #ms_padding-top{
+        padding-top: 4rem;
+    }
+
+    .ms_mobile-padding{
+        padding: 2rem 0;
+    }
+
+    .product{
+        display: inline-block;
+    }
+
+    
 }
  
 
