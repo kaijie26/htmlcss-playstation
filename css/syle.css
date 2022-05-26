@@ -230,6 +230,29 @@ Main
     padding: 1rem 0
 }
 
+/* Section-PlayStation-Now */
+.playstation-now{
+    background-color: #161c3b;
+    color: white;
+}
+
+#ps-now-logo{
+    width: 300px;
+}
+
+.ps-now-card p{
+    padding: 1rem 0;
+
+}
+
+.ps-now-card{
+    padding: 1rem 0
+}
+
+.btn-now{
+    color: black;
+}
+
 
 /* MD */
 @media screen and (min-width: 768px) {
@@ -313,6 +336,16 @@ Main
     }
     
     .ps-plus-card{
+        position: absolute;
+        top: 20%;
+    }
+
+     /* Section-PLayStation-Now */
+     .ps-col{
+        position: relative;
+    }
+    
+    .ps-now-card{
         position: absolute;
         top: 20%;
     }
