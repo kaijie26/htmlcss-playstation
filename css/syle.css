@@ -186,8 +186,23 @@ Main
 }
 
 /* Section-New-Releases */
+.new-releases{
+    background-color: black;
+    color: white;
+}
+
 .new{
     padding-bottom: 1rem;
+}
+
+/* Section-PlayStation 4 */
+
+.card{
+    border: none;
+}
+
+.btn{
+    border-radius: 20px;
 }
 
 
@@ -265,4 +280,6 @@ Main
 
     .ms_jumbotron-content2 h2{
         width: 35%;
+    }
+
     }
