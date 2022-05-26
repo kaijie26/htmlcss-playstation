@@ -25,6 +25,13 @@ a{
     margin: 0 1rem;
 }
 
+.ms_btn-large{
+    color:#0d6efd;
+    background-color: #d9dadc;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+
 .ms_mobile-padding{
     padding: 2rem 0;
 }
@@ -205,6 +212,24 @@ Main
     border-radius: 20px;
 }
 
+/* Section-PlayStation-Plus */
+.playstation-plus{
+    background-color: #bebcbb;
+}
+
+#ps-plus-logo{
+    width: 300px;
+}
+
+.ps-plus-card p{
+    padding: 1rem 0;
+
+}
+
+.ps-plus-card{
+    padding: 1rem 0
+}
+
 
 /* MD */
 @media screen and (min-width: 768px) {
@@ -281,5 +306,16 @@ Main
     .ms_jumbotron-content2 h2{
         width: 35%;
     }
+
+    /* Section-PLayStation-Plus */
+    .ps-col{
+        position: relative;
+    }
+    
+    .ps-plus-card{
+        position: absolute;
+        top: 20%;
+    }
+    
 
     }
