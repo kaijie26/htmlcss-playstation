@@ -258,6 +258,41 @@ Main
     padding-bottom: 3rem;
 }
 
+/* Footer */
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+#ps-footer{
+    width: 100px;
+}
+
+#globe{
+    width: 20px;
+}
+
+.country{
+    padding: 2rem 0;
+    
+}
+
+footer ul{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+footer a{
+    color: inherit;
+}
+
+#sie-logo{
+    width: 150px;
+}
+
+.informativa span{
+    text-decoration: underline;
+}
 
 /* MD */
 @media screen and (min-width: 768px) {
