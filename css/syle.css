@@ -5,6 +5,11 @@ body{
 
 header{
     font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 ul{
@@ -40,13 +45,21 @@ a{
     text-align: center;
 }
 
+.blue{
+    color: #1a80d3;
+}
+
+h2{
+    font-size: 35px;
+}
+
 /***************************************************** 
 Header
 *******************************************************/
 
 /* Header-Top */
 .header-top{
-    background-color: aquamarine;
+    background-color: black;
     text-align: right;
     padding: 0.5rem;
 }
@@ -57,14 +70,11 @@ Header
 
 /* Header-Bottom */
 .header-bottom{
-    background-color: bisque;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
 }
 
 .down{
@@ -88,27 +98,26 @@ Header
 Main
 *****************************************************************/
 
+main{
+    margin-top: 100px;
+}
+
 /* Section-Jumbotron */
 .ms_jumbotron1{
     background-image: url("../img/jumbo-bg.png");
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    position: relative;
     color: white;
 }
 
 .banner-logo{
     width: 300px;
     height: auto;
-    position: absolute;
-    top: 40%;
 }
 
-.ms_jumbotron-content{
-    position: absolute;
-    top: 50%;
+.ms_jumbo-content{
+    padding: 200px 0;
 }
 
 .ms_jumbotron-content h2{
@@ -145,11 +154,23 @@ Main
 }
 
 .ms_card-border{
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #2d64e6;;
 }
 
 .ms_card-border :last-child{
     padding-bottom: 2.5rem;
+}
+
+#outline{
+    outline: 3px solid blue;
+    outline-offset: 2px;
+}
+
+.btn_info{
+    background-color: #2d64e6;
+    color: white;
+    display: inline-block;
+    margin: 2rem 0;
 }
 
 /* Section-Jumbotron2 */
@@ -158,27 +179,23 @@ Main
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    position: relative;
     color: white;
 }
 
 .banner-logo2{
     width: 300px;
     height: auto;
-    position: absolute;
-    top: 5%;
     
 }
 
-.ms_jumbotron-content2{
-    position: absolute;
-    top: 43%;
+.ms_jumbo2-content{
+    padding: 100px 0;
 }
+
 
 .ms_jumbotron-content2 h2{
     padding: 1rem 0;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .ms_jumbotron-content2 p{
@@ -357,37 +374,27 @@ footer a{
 
     /* Section-Jumbotron1 */
     .ms_jumbotron-content p{
-        width: 35%;
+        max-width: 400px;
     }
 
 
     /* Section-Jumbotron2 */
     .ms_jumbotron-content2 p{
-        width: 35%;
+        max-width: 400px;
     }
 
     .ms_jumbotron-content2 h2{
-        width: 35%;
+        max-width: 400px;
     }
 
-    /* Section-PLayStation-Plus */
-    .ps-col{
-        position: relative;
-    }
-    
+    /* Section-PLayStation-Plus */ 
     .ps-plus-card{
-        position: absolute;
-        top: 20%;
+       margin-top: 70px;
     }
 
      /* Section-PLayStation-Now */
-     .ps-col{
-        position: relative;
-    }
-    
     .ps-now-card{
-        position: absolute;
-        top: 20%;
+       margin-top: 70px;
     }
     
 
